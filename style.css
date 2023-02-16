@@ -1,16 +1,36 @@
 body {
     margin: 0px;
-    padding: 8px;
-    background-color: blanchedalmond;
+    background-color: white;
     font-family: 'Lato', sans-serif;
 }
+
 a {
     text-decoration: none;
     color: black;
 }
 
+.navlink:hover {
+    text-decoration-line: underline;
+}
+
+header {
+    background-color: #2f75d6;
+    padding: 8px;
+}
+
+.mainBody {
+    padding-left: 8px;
+    padding-right: 8px;
+    padding-bottom: 8px;
+}
+
+.titleBanner {
+    text-align: center;
+}
+
 .brand {
     float: left;
+    padding: 2px;
 }
 
 .navMenu {
@@ -19,8 +39,35 @@ a {
 
 .navLinks {
     display: inline-block;
+    padding: 2px;
 }
 
 .navMenuBottom {
     clear: right;
+}
+
+.currentLocation {
+    text-decoration-line: underline;
+}
+
+.faq {
+    padding: 8px;
+}
+
+.questionSymbol {
+    display: inline;
+    font-weight: bold;
+}
+
+.question {
+    display: inline;
+}
+
+.answerSymbol {
+    display: inline;
+    font-weight: bold;
+}
+
+.answer {
+    display: inline;
 }
