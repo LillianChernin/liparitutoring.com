@@ -1,6 +1,6 @@
 body {
     margin: 0px;
-    background-color: white;
+    background-color: #F1FCF1;
     font-family: 'Lato', sans-serif;
 }
 
@@ -9,13 +9,17 @@ a {
     color: black;
 }
 
+.navlink {
+    color: #F1FCF1;
+}
+
 .navlink:hover {
     text-decoration-line: underline;
 }
 
 header {
-    background-color: #2f75d6;
-    padding: 8px;
+    background-color: #19732d;
+    padding: 12px;
 }
 
 .mainBody {
@@ -31,6 +35,27 @@ header {
 .brand {
     float: left;
     padding: 2px;
+}                  
+
+.brandReturnLink {
+    color: #F1FCF1;
+    font-size: large;
+    
+    /* text-shadow: 2px 2px 8px #000000; */
+}
+
+.lipariFamilyImage {
+    /* height: 200px; */
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    /* overflow: hidden; */
+    width: 100%;
+}
+
+.lipariFamilyImage {
+    height: 250px;
+    object-fit: contain;
 }
 
 .navMenu {
@@ -39,7 +64,7 @@ header {
 
 .navLinks {
     display: inline-block;
-    padding: 2px;
+    padding: 2px 4px;
 }
 
 .navMenuBottom {
@@ -70,4 +95,107 @@ header {
 
 .answer {
     display: inline;
+}
+
+.reviewCard {
+    width: 30%;
+    margin: auto;
+    background-color: rgba(25, 115, 45, .50);
+    padding: 8px;
+}
+
+.selector {
+    height: 15px;
+    width: 15px;
+    background-color: gray;
+    border-radius: 50%;
+    display: inline-block;
+    margin: 2px;
+}
+
+.selectorContainer {
+    width: 30%;
+    margin: auto;
+}
+
+.lipariFamilyImageContainer {
+    background-color:#3D4A3D;
+}
+
+.bioTextContainer {
+    display: inline-block;
+    width: 50%;
+}
+
+.bioPicture {
+    display: inline-block;
+    width: 40%;
+    padding: 0px 6px 12px 6px;
+    vertical-align: top;
+}
+
+.bioName {
+    display: inline-block;
+}
+
+.bioText {
+    display: inline-block;
+}
+
+#dominicImg {
+    width: 100%;
+}
+
+#katherineImg {
+    width: 100%;
+}
+
+.puzzleTitle {
+    text-align: center;
+}
+
+.puzzleTabContainer {
+    width: 70%;
+    margin: auto;
+}
+
+.puzzleTextContainer {
+    width: 70%;
+    margin: auto;
+    border: 2px solid #19732d;
+    padding: 3px;
+}
+
+.puzzleTab {
+    display: inline-block;
+    color: #F1FCF1;
+    background-color: #19732d;
+    border: 2px solid #19732d;
+    padding: 2px;
+    border-radius: 6px 6px 0px 0px;
+    cursor: pointer;
+}
+
+.currentPuzzleTab {
+    background-color: #F1FCF1;
+    color: black;
+    border-bottom: 2px solid #F1FCF1;
+}
+
+.puzzleBold {
+    font-weight: 600;
+}
+
+.puzzleItalic {
+    font-style: italic;
+}
+
+.hiddenObject {
+    display: none;
+}
+
+#pipeDiagram {
+    width: 50%;
+    margin: auto;
+    display: block;
 }
