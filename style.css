@@ -79,7 +79,11 @@ header {
     padding: 8px;
 }
 
-.questionSymbol {
+.question {
+    font-weight: bold;
+}
+
+/* .questionSymbol {
     display: inline;
     font-weight: bold;
 }
@@ -91,11 +95,11 @@ header {
 .answerSymbol {
     display: inline;
     font-weight: bold;
-}
+} */
 
-.answer {
+/* .answer {
     display: inline;
-}
+} */
 
 .reviewCard {
     width: 30%;
@@ -198,4 +202,20 @@ header {
     width: 50%;
     margin: auto;
     display: block;
+}
+
+.homepageSubjectImagesContainer {
+    margin:auto;
+    text-align: center;
+}
+
+.homepageSubjectImage {
+    width: 30%;
+    padding: 3px;
+    height: 300px;
+}
+
+.homepageSubjectImage:hover {
+    border: 3px solid #19732d;
+    padding: 0px;
 }
