@@ -121,6 +121,10 @@ header {
     margin: 2px;
 }
 
+.selector:hover {
+    background-color: darkslategray;
+}
+
 .currentSelector {
     background-color: darkslategray;
 }
