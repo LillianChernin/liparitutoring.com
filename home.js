@@ -2,7 +2,7 @@ const slideshowContainer = document.getElementsByClassName("slideshowContainer")
 const reviewCardContainer = document.getElementsByClassName("reviewCardContainer")[0];
 const selectorContainer = document.getElementsByClassName("selectorContainer")[0];
 
-const maxReviewLength = 300;
+const maxReviewLength = 350;
 
 let currentReviewNumber = 0;
 let isReviewTruncated = false;
